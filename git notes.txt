@@ -1,0 +1,9 @@
+Git notes:
+
+To show the graph and to see abandoned forks:
+
+git log --all --decorate --oneline --graph
+
+or 
+
+git log --all --graph
