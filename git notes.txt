@@ -7,3 +7,6 @@ git log --all --decorate --oneline --graph
 or 
 
 git log --all --graph
+
+index is staging area
+
