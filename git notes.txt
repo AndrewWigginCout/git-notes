@@ -10,3 +10,5 @@ git log --all --graph
 
 index is staging area
 
+to see all files in the HEAD commit:
+  git ls-tree -r HEAD
