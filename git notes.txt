@@ -12,3 +12,5 @@ index is staging area
 
 to see all files in the HEAD commit:
   git ls-tree -r HEAD
+or to see all files in the repo
+  git ls-files
