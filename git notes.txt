@@ -22,3 +22,6 @@ to set ui_score to master
 git branch -f {desired branch name} {commit hash}
   to set an arbitrary commit to a named branch
   great for making a forked branch that might be detached to the new master
+  
+git log -p
+  since commits are maybe actually just the deltas, git log -p just shows a log of all those deltas
