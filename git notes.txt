@@ -25,3 +25,6 @@ git branch -f {desired branch name} {commit hash}
   
 git log -p
   since commits are maybe actually just the deltas, git log -p just shows a log of all those deltas
+  
+git diff --cached
+  diff the staged to the latest commit
