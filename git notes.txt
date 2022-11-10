@@ -28,3 +28,7 @@ git log -p
   
 git diff --cached
   diff the staged to the latest commit
+  
+To unstage file
+  git reset -- filename.ext
+
