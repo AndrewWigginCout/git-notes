@@ -31,4 +31,12 @@ git diff --cached
   
 To unstage file
   git reset -- filename.ext
+  
+in case if you want to redirect the stdout to the editor you can do:
+  myprogram| gvim -
+
+To hard reset a single file to HEAD:
+  git checkout @ -- myfile.ext
+To git diff against an empty repo:
+  git diff 4b825dc642cb6eb9a060e54bf8d69288fbee4904 HEAD
 
