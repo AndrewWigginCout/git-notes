@@ -45,3 +45,6 @@ Docker exec
   docker exec -it {containerid} /bin/bash
 docker run creates an image
 docker start starts a container
+To run a docker container or image and map the port:
+  docker run -p{hostport}:{containerport} -d {imagename:imagesubname}
+
