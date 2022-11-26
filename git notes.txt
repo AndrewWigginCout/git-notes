@@ -39,4 +39,9 @@ To hard reset a single file to HEAD:
   git checkout @ -- myfile.ext
 To git diff against an empty repo:
   git diff 4b825dc642cb6eb9a060e54bf8d69288fbee4904 HEAD
-
+To md5sum recursively:
+  find -type f \( -not -name "md5sum.txt" \) -exec md5sum '{}' \; > md5sum.txt
+Docker exec
+  docker exec -it {containerid} /bin/bash
+docker run creates an image
+docker start starts a container
