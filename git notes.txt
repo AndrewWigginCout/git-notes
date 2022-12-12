@@ -47,4 +47,7 @@ docker run creates an image
 docker start starts a container
 To run a docker container or image and map the port:
   docker run -p{hostport}:{containerport} -d {imagename:imagesubname}
-
+To compare commits:
+  git diff hash
+To compare commits using a difftool like vscode:
+  git difftool hash
